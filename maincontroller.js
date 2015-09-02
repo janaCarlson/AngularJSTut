@@ -1,4 +1,3 @@
-
 /**
  * this assigns a controller called MainController to the MyTutorialApp
  * application.  The scope variable (parameter to the controller function) we
@@ -25,7 +24,7 @@ app.controller("MainController", function($scope) {
         },
         {
             id: 1,
-            name: 'Henry',
+            name: 'Chris',
             music: [
                 'Indie',
                 'Drumstep',
