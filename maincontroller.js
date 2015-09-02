@@ -25,7 +25,7 @@ app.controller("MainController", function($scope) {
         },
         {
             id: 1,
-            name: 'Chris',
+            name: 'Henry',
             music: [
                 'Indie',
                 'Drumstep',
