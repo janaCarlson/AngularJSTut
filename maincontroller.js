@@ -1,6 +1,3 @@
-/**
- * Created by Jana on 4/6/14.
- */
 
 /**
  * this assigns a controller called MainController to the MyTutorialApp
@@ -17,7 +14,7 @@ app.controller("MainController", function($scope) {
     $scope.people = [
         {
             id: 0,
-            name: 'Leon',
+            name: 'Jana',
             music: [
                 'Rock',
                 'Metal',
@@ -69,10 +66,10 @@ app.controller("MainController", function($scope) {
                 music:[$scope.newMusic]
             });
         }
-    }
+    } ;
     $scope.removeItemNow = function(index) {
         $scope.people.splice(index, 1);
-    }
+    } ;
 
         $scope.colors = [
             {name:'black', shade:'dark', used:'true'},
